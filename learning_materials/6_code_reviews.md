@@ -94,4 +94,4 @@ Code reviews should be thorough and prompt. Delivering quality code reviews is a
   * Is there any unnecessary complexity? Is it easy to understand?
   * Does it include anything that is not stated in the description or ticket? In other words, are they adding anything that doesn't belong?
   * If there are comments, are they necessary and useful?
-
+gi

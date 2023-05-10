@@ -7,7 +7,7 @@ The goal of the program is to teach and reinforce programming fundamentals that 
 ## Commitment
 
 * 5 weeks
-* 36-40 hours / week
+* 20-25 hours / week
 * Daily stand ups
 * Lecture attendance
 * Independent work
