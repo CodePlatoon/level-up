@@ -132,10 +132,11 @@ User stories typically follow one of these patterns:
 
 ## Resource
 
-* [What is Agile Development?]()
-* [Kanban]()
-* [Kanban vs Scrum]()
-* [The Agile Samurai (book)]()
-* [The Agile Manifesto]()
-* [Atlassian - user stories explained]()
-* [Given, When, Then (blog)]()
+* [What is Agile Development?](https://www.atlassian.com/agile)
+* [Kanban](https://www.atlassian.com/agile/kanban)
+* [Kanban vs Scrum](https://www.atlassian.com/agile/kanban/kanban-vs-scrum)
+* [The Agile Samurai (book)](https://www.amazon.com/Agile-Samurai-Software-Pragmatic-Programmers/dp/1934356581)
+* [The Agile Manifesto](https://agilemanifesto.org/)
+* [Atlassian - user stories explained](https://www.atlassian.com/agile/project-management/user-stories)
+* [Given, When, Then (blog)](https://medium.com/geekculture/given-when-then-326d86a3c165)
+* [Project Management User Stories](https://www.atlassian.com/agile/project-management/user-stories)

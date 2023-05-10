@@ -81,7 +81,10 @@ A team agreement defines the purpose of the team, how it will work, and what the
 * Writing an effective README
 * Commit messages
 * Git history
+
+#### Code Reviews
 * How to get your PRs accepted
+* How to review PRs
 
 #### Exercises
 

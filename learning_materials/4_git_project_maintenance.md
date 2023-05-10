@@ -248,43 +248,6 @@ Finally, if you have staged changes you want to add to the previous commit and y
 git commit -amend --no-edit
 ```
 
-## Pull Requests
-
-A pull request is your opportunity to solicit feedback on the code you have written. Generally when you are working on a dev team, other members of your team will be reviewing your code, but that is not always the case. Even if your code is being reviewed by other members of your team, it is still prudent to include as much context as possible in your pull requests so that the reviewer(s) can more easily assess the code.
-
-The pull request feedback cycle for first timers is usually longer than developers anticipate, because first pull requests almost always require a lot of feedback. There are some measures that you can take to reduce this feedback cycle.
-
-### Length
-
-Pull requests should be small. Small PRs mean faster turnaround time, less chance of a merge conflict, and less back and forth between the reviewer and submitter. When you are working on a project that involves production code, having smaller merge requests means that more code gets promoted to a production environment, more quickly.
-
-### Title
-
-PR titles should include the relevant ticket number and title, ie: *TODO-001 Display a list of tasks*. If tickets are small, or if the tickets tasks are effectively broken down, then the PRs should reflect that structure.
-
-### Branch name
-
-The branch name should model the ticket name ie: *todo-001-display-a-list-of-tasks*.
-
-### PR description
-
-The description should include (where appropriate) the acceptance criteria for the ticket that it is addressing. If there is a UI change, screen shots should also be included.
-
-### Commits
-
-* Should be prepended by the ticket number ie: *TODO-001 Display a single task*, *TODO-001 Display multiple tasks*
-* Should be in the imperative mood (**Fix a typo**, and not *Fixes a typo*, *Fixing a typo*, *Fixed a typo*)
-* Should be concise
-* Should follow convention
-  * First word should be capitalized
-  * Use plain English–don’t include uncommon abbreviations
-  * Don’t add a period at the end
-  * Squash unnecessary commits
-
-### Test coverage
-
-All pull requests should include tests for the features that were added. All tests must be passing. You **never** should commit and push up broken code for a PR, because if it gets merged, that broken code will infect the main branch of your repository.
-
 ## Exercises
 
 * Practice rebasing to update git commit history
