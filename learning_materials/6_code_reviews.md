@@ -45,15 +45,15 @@ If there is a UI change, screen shots should also be included.
 
 ### Commits
 
-We learned about git maintenance in a previous section. Part of git maintenance includes maintaining a clean and clear commit history. Reviewers will look at your commit history and check for the following:
+We learned about git maintenance in [a previous section](/learning_materials_4_git_project_maintenance.md). Part of git maintenance includes maintaining a clean and clear commit history. Reviewers will look at your commit history and check for the following:
 
 * Commits should be prepended by the ticket number ie: *TODO-001 Display a single task*, *TODO-001 Display multiple tasks*
 * Commits should be in the imperative mood (**Fix a typo**, and not *Fixes a typo*, *Fixing a typo*, *Fixed a typo*)
 * Commits should be concise
 * Commits should follow convention
-  * First word should be capitalized
-  * Use plain English–don’t include uncommon abbreviations
-  * Don’t add a period at the end
+    * First word should be capitalized
+    * Use plain English–don’t include uncommon abbreviations
+    * Don’t add a period at the end
 * Squash unnecessary commits
 
 ### Test coverage
@@ -80,6 +80,56 @@ Code reviews should be thorough and prompt. Delivering quality code reviews is a
 * Do the tests cover all logical scenarios?
 * Does the PR include instructions for how to test?
 
+You will want to make sure that the tests cover the full functionality of the code. Let's look at an example:
+
+```
+def calculate_average(numbers):
+    """
+    Calculates the average of a list of numbers.
+
+    Args:
+        numbers (list): A list of numbers.
+
+    Returns:
+        float: The average of the numbers.
+
+    Raises:
+        ValueError: If the input list is empty.
+
+    """
+    if not numbers:
+        raise ValueError("Input list cannot be empty.")
+
+    return sum(numbers) / len(numbers)
+```
+
+This function takes an argument, numbers, and returns a number. We would need to account for a few scenarios in the unit tests:
+
+1. Does it work? Does the method correctly calculate the average of a list of numbers?
+
+```
+assert calculate_average([1, 2, 3, 4, 5]) == 3.0
+```
+
+2. What should happen when the list is empty?
+
+```
+assertRaises(ValueError, calculate_average, [])
+```
+
+3. Is the precision what you are expecting for floating point numbers?
+
+```
+assert calculate_average([0.1, 0.2, 0.3]) == 0.2
+```
+
+4. What happens when you put in large numbers? Check for performance and accuracy.
+
+```
+assert calculate_average([1000000, 2000000, 3000000]) == 2000000.0
+```
+
+
 ### Style
 
 * Do the UI changes look good?
@@ -89,9 +139,74 @@ Code reviews should be thorough and prompt. Delivering quality code reviews is a
 * Is the PR appropriately documented?
 * Does the PR include information like screen shots and acceptance criteria?
 * Is the code well-designed?
-  * Does the code adhere to language norms?
-  * Are the names used for functions, variables, objects, etc clear and concise?
-  * Is there any unnecessary complexity? Is it easy to understand?
-  * Does it include anything that is not stated in the description or ticket? In other words, are they adding anything that doesn't belong?
-  * If there are comments, are they necessary and useful?
-gi
+    * Does the code adhere to language norms?
+    * Are the names used for functions, variables, objects, etc clear and concise?
+    * Is there any unnecessary complexity? Is it easy to understand?
+    * Does it include anything that is not stated in the description or ticket? In other words, are they adding anything that doesn't belong?
+    * If there are comments, are they necessary and useful?
+
+#### Not adhering to Language Norms
+
+Make sure that the code follows style guidelines. In the following code, we would want to mention that the case they are using for setting the variable (camelCase) is not idiomatic python (snake_case).
+
+```
+dateOfBirth = '1987/04/29'
+```
+
+#### Poor Naming
+
+This is not great naming because it is vague and does not speak to the purpose of the function. Are they calculating area? Sum? Product? Also, what do `a`, `b`, and `c` represent?
+```
+def calculate(a, b, c):
+    # method implementation...
+```
+
+This is also a bad method name because it is not concise and is redundant.
+
+```
+def calculate_area_of_cube_given_length_width_and_height(a, b, c):
+    # method implementation...
+```
+
+Here is how we can suggest they improve this in the code review
+
+```
+def calculate_cube_area(length, width, height):
+    # method implementation...
+```
+
+#### Unnecessary Complexity
+
+This code works, but it is not implemented smartly. The if statement is unnecessary here.
+```
+def check_if_number_is_even(number):
+    if number % 2 == 0:
+        return True
+    else:
+        return False
+```
+
+For this, we can suggest they simplify the method
+```
+def is_number_even(number):
+    return number % 2 == 0
+```
+
+#### Implements More Than What is Asked For
+
+Let's say the ticket specifies that a checkbox should be added and this is the code that was provided:
+
+```
+<input type="checkbox" checked>
+```
+
+They are adding a default value of "checked" for the checkbox, but that was not the requirement.
+
+#### Unhelpful Comments
+
+Here is an example of a comment that is not particularly useful:
+
+```
+# Increment the counter by 1
+counter += 1
+```
