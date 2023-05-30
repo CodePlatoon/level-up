@@ -32,6 +32,7 @@
 
 ## Object Oriented Programming
 
+* [Practical Object Oriented Design in Ruby (POODR)](https://www.poodr.com/)
 * [Object Oriented Programming Concepts](https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260)
 * [Object Oriented Programming Tricks](https://hackernoon.com/oo-tricks-the-art-of-command-query-separation-9343e50a3de0?ref=hackernoon.com)
 * [GORUCO 2009 - SOLID Object-Oriented Design by Sandi Metz](https://www.youtube.com/watch?v=v-2yFMzxqwU&t=2s)

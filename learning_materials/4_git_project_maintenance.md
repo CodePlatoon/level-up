@@ -37,13 +37,13 @@ Additionally, these options should be considered where appropriate:
 ### README Examples
 
 #### [HTTPie](https://github.com/httpie/httpie#readme)
-![HTTPie README]('./assets/httpie_readme.png')
+![HTTPie README](/assets/httpie_readme.png)
 #### [Release It!](https://github.com/release-it/release-it#readme)
-![Release It! README]('./assets/release_it_readme.png')
+![Release It! README](/assets/release_it_readme.png)
 #### [Sinatra](https://github.com/sinatra/sinatra)
-![Sinatra README]('./assets/sinatra_readme.png')
+![Sinatra README](/assets/sinatra_readme.png)
 #### [Sourcerer](https://github.com/sourcerer-io/sourcerer-app#readme)
-![Sourcerer README]('./assets/sourcerer_readme.png')
+![Sourcerer README](/assets/sourcerer_readme.png)
 
 
 ## Commit Messages

@@ -22,3 +22,6 @@ Search for a Pokemon using the Pokemon API. The result should display that Pokem
 ## Resources
 
 * [App Repo](https://github.com/fravila08/pokemonEx)
+* [Day 1 Exercise](https://github.com/fravila08/pokemonEx/tree/main/exercise_1)
+* [Day 2 Exercise](https://github.com/fravila08/pokemonEx/tree/main/exercise_2)
+* [Day 3 Exercise](https://github.com/fravila08/pokemonEx/tree/main/exercise_3)

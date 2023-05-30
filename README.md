@@ -9,22 +9,20 @@ The goal of the program is to teach and reinforce programming fundamentals that 
 * 5 weeks
 * 20-25 hours / week
 * Daily stand ups
-* Lecture attendance
 * Independent work
 * Completion of assigned reading
-* Code submitted periodically for review
+* Code submitted periodically for peer review
 
 ## What to expect
 
 * Introduction to fundamental software development topics
-* Feedback in the form of code reviews
-* Support staff available to answer questions during TA hours
+* Feedback in the form of peer code reviews
+* Support available on Slack in #tech_help channel
 
 ## Prerequisites
 
 * Knowledge of JavaScript & Python
 * Basic knowledge of OO programming
-* VSCode
 * Practical Object Oriented Design in Ruby (purchase for the course)
 
 ## Learning Objectives
