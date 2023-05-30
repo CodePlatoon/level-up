@@ -8,8 +8,8 @@ Facilitators are responsible for the following.
 
 1. Facilitate introductions. Ask participants to identify themselves and where they live, and talk about what they are hoping to get out of the program. You can also include an ice breaker question like "what are your top 2 favorite ways of consuming potatoes?"
 2. Go through the high level course description in the [README](/README.md)
-3. Complete the [Team Agreement]([https://docs.google.com/document/d/1QaoVm1F1Rpj4qcuebUd75xFBtK14uo1-K1JYHQ_qT9g/edit?usp=drive_link](https://docs.google.com/document/d/1NG7X0P_gRMGPseu5_zv4RBvrTUfaIU7VQsV0fZGonjk/edit)) with the group participants
-4. Have participants make a copy of the [Baseline Ratings for Learning Objectives](https://docs.google.com/document/d/1muEMyxklSZvFR2R5XSabwnC58MC88NrUubUrlkmh-js/edit?usp=drive_link) doc and fill it out
+3. Complete the [Team Agreement](https://docs.google.com/document/d/1NG7X0P_gRMGPseu5_zv4RBvrTUfaIU7VQsV0fZGonjk/edit) with the group participants
+4. Have participants make a copy of the [Baseline Ratings for Learning Objectives](https://docs.google.com/document/d/1IyiZnWv-8kZwnrOCe1S7W1uz3HankmwXLtCXxy4W9jM/edit?usp=sharing) doc and fill it out
 5. Ensure that everyone is set up with access to the materials including joining the #tech_help Slack channel and ordering [POODR](https://www.poodr.com/) for the book club.
 
 ## Daily Scrum and Standups
